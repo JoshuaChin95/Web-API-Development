@@ -69,7 +69,7 @@ class App extends Component {
   //https://github.com/react-tools/react-table/issues/324
   render() {
     var data = this.state.movies;
-    data = data.reverse();
+    data = data;
 
     return (
       <div className="App">
