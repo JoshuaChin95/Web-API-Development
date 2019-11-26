@@ -24,7 +24,7 @@ class App extends Component {
         console.log(this.state.movies);
       })
       .catch(error => {
-        console.log(error);
+        console.error();
       });
   };
   componentDidMount() {
