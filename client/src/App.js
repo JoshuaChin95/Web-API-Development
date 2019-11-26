@@ -6,6 +6,7 @@ import axios from 'axios';
 import Popup from 'react-popup';
 import './Popup.css';
 import ReactDOM from 'react-dom';
+import reactstrap;
 
 class App extends Component {
   constructor() {
